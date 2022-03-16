@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro";
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  text-transform: uppercase;
+  padding: 30px;
+  margin: auto;
+  background-color: ;
+  background: #6a1cc3;
+  color: white;
+}
+
+.site-titel {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+
+.menu {
+  width: 2em;
+  height: 2em;
+  color: #fbfbfb;
+}
+
+.heading {
+  color: #6a1cc3;
+  font-size: 1.2rem;
+}
+
+.sub-heading {
+  color: #00000099;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+#search-tool {
+  margin-top: 1em;
+  height: 2em;
+  width: 400px;
+}
+
+.info {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.flex-container {
+  font-family: "Source Sans Pro";
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  border: 2px solid #6a1cc3;
+  box-shadow: 4px 4px #6a1cc3;
+}
+
+p {
+  margin: auto;
+}
+
+.play {
+  width: 3em;
+  border: 2px solid #6a1cc3;
+}
